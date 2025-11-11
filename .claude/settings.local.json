@@ -12,7 +12,9 @@
       "Bash(git push:*)",
       "Bash(git remote:*)",
       "Bash(vercel deploy:*)",
-      "Bash(vercel link:*)"
+      "Bash(vercel link:*)",
+      "Bash(vercel --version:*)",
+      "Bash(vercel ls:*)"
     ],
     "deny": [],
     "ask": []
