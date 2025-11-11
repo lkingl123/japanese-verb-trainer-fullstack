@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "masu_form": "食べます",
+    "romaji": "tabemasu",
+    "english": "to eat",
+    "verb_type": "ru-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 2,
+    "masu_form": "飲みます",
+    "romaji": "nomimasu",
+    "english": "to drink",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 3,
+    "masu_form": "見ます",
+    "romaji": "mimasu",
+    "english": "to see / watch",
+    "verb_type": "ru-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 4,
+    "masu_form": "聞きます",
+    "romaji": "kikimasu",
+    "english": "to listen / ask",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 5,
+    "masu_form": "話します",
+    "romaji": "hanashimasu",
+    "english": "to speak",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 6,
+    "masu_form": "読みます",
+    "romaji": "yomimasu",
+    "english": "to read",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 7,
+    "masu_form": "書きます",
+    "romaji": "kakimasu",
+    "english": "to write",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 8,
+    "masu_form": "買います",
+    "romaji": "kaimasu",
+    "english": "to buy",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 9,
+    "masu_form": "売ります",
+    "romaji": "urimasu",
+    "english": "to sell",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 10,
+    "masu_form": "作ります",
+    "romaji": "tsukurimasu",
+    "english": "to make",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 11,
+    "masu_form": "使います",
+    "romaji": "tsukaimasu",
+    "english": "to use",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 12,
+    "masu_form": "行きます",
+    "romaji": "ikimasu",
+    "english": "to go",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 13,
+    "masu_form": "来ます",
+    "romaji": "kimasu",
+    "english": "to come",
+    "verb_type": "irregular",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 14,
+    "masu_form": "帰ります",
+    "romaji": "kaerimasu",
+    "english": "to return / go back",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 15,
+    "masu_form": "寝ます",
+    "romaji": "nemasu",
+    "english": "to sleep",
+    "verb_type": "ru-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 16,
+    "masu_form": "起きます",
+    "romaji": "okimasu",
+    "english": "to wake up",
+    "verb_type": "ru-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 17,
+    "masu_form": "働きます",
+    "romaji": "hatarakimasu",
+    "english": "to work",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 18,
+    "masu_form": "勉強します",
+    "romaji": "benkyou shimasu",
+    "english": "to study",
+    "verb_type": "irregular",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 19,
+    "masu_form": "練習します",
+    "romaji": "renshuu shimasu",
+    "english": "to practice",
+    "verb_type": "irregular",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 20,
+    "masu_form": "歩きます",
+    "romaji": "arukimasu",
+    "english": "to walk",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 21,
+    "masu_form": "走ります",
+    "romaji": "hashirimasu",
+    "english": "to run",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 22,
+    "masu_form": "泳ぎます",
+    "romaji": "oyogimasu",
+    "english": "to swim",
+    "verb_type": "u-verb",
+    "difficulty": "beginner"
+  },
+  {
+    "id": 23,
+    "masu_form": "遊びます",
+    "romaji": "asobimasu",
+    "english": "to play",
+    "verb_type": "u-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 24,
+    "masu_form": "待ちます",
+    "romaji": "machimasu",
+    "english": "to wait",
+    "verb_type": "u-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 25,
+    "masu_form": "会います",
+    "romaji": "aimasu",
+    "english": "to meet",
+    "verb_type": "u-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 26,
+    "masu_form": "教えます",
+    "romaji": "oshiemasu",
+    "english": "to teach",
+    "verb_type": "ru-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 27,
+    "masu_form": "習います",
+    "romaji": "naraimasu",
+    "english": "to learn",
+    "verb_type": "u-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 28,
+    "masu_form": "覚えます",
+    "romaji": "oboemasu",
+    "english": "to memorize / remember",
+    "verb_type": "ru-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 29,
+    "masu_form": "忘れます",
+    "romaji": "wasuremasu",
+    "english": "to forget",
+    "verb_type": "ru-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 30,
+    "masu_form": "考えます",
+    "romaji": "kangaemasu",
+    "english": "to think",
+    "verb_type": "ru-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 31,
+    "masu_form": "説明します",
+    "romaji": "setsumei shimasu",
+    "english": "to explain",
+    "verb_type": "irregular",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 32,
+    "masu_form": "理解します",
+    "romaji": "rikai shimasu",
+    "english": "to understand",
+    "verb_type": "irregular",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 33,
+    "masu_form": "決めます",
+    "romaji": "kiemasu",
+    "english": "to decide",
+    "verb_type": "ru-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 34,
+    "masu_form": "選びます",
+    "romaji": "erabimasu",
+    "english": "to choose",
+    "verb_type": "u-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 35,
+    "masu_form": "試します",
+    "romaji": "tameshimasu",
+    "english": "to try / test",
+    "verb_type": "u-verb",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 36,
+    "masu_form": "失敗します",
+    "romaji": "shippai shimasu",
+    "english": "to fail",
+    "verb_type": "irregular",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 37,
+    "masu_form": "成功します",
+    "romaji": "seikou shimasu",
+    "english": "to succeed",
+    "verb_type": "irregular",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": 38,
+    "masu_form": "深める",
+    "romaji": "fukameru",
+    "english": "to deepen",
+    "verb_type": "ru-verb",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 39,
+    "masu_form": "派遣する",
+    "romaji": "haken suru",
+    "english": "to dispatch",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 40,
+    "masu_form": "掌握する",
+    "romaji": "shouaku suru",
+    "english": "to control",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 41,
+    "masu_form": "躊躇する",
+    "romaji": "chuucho suru",
+    "english": "to hesitate",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 42,
+    "masu_form": "獲得する",
+    "romaji": "kakutoku suru",
+    "english": "to acquire",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 43,
+    "masu_form": "遭遇する",
+    "romaji": "souuguu suru",
+    "english": "to encounter",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 44,
+    "masu_form": "統合する",
+    "romaji": "tougou suru",
+    "english": "to integrate",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 45,
+    "masu_form": "構想する",
+    "romaji": "kousou suru",
+    "english": "to conceive / plan",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 46,
+    "masu_form": "遵守する",
+    "romaji": "junshu suru",
+    "english": "to comply with",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 47,
+    "masu_form": "抑制する",
+    "romaji": "yokusei suru",
+    "english": "to suppress",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 48,
+    "masu_form": "摂取する",
+    "romaji": "sesshuu suru",
+    "english": "to consume / intake",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  },
+  {
+    "id": 49,
+    "masu_form": "排除する",
+    "romaji": "haiyo suru",
+    "english": "to eliminate",
+    "verb_type": "irregular",
+    "difficulty": "advanced"
+  }
+]
