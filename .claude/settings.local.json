@@ -3,7 +3,16 @@
     "allow": [
       "Bash(curl:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git config:*)",
+      "Bash(git commit:*)",
+      "Bash(npm install:*)",
+      "Bash(gh auth login:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(git remote:*)",
+      "Bash(vercel deploy:*)",
+      "Bash(vercel link:*)"
     ],
     "deny": [],
     "ask": []

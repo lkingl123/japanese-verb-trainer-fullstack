@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { verbAPI, progressAPI } from '../services/api';
+import { getRandomVerb, recordAttempt } from '../services/dataService';
 import FlashcardMode from '../components/FlashcardMode';
 
 function PracticePage() {
@@ -19,11 +19,11 @@ function PracticePage() {
   const loadNewVerb = async () => {
     setLoading(true);
     try {
-      const response = await verbAPI.getRandom(
+      const verb = await getRandomVerb(
         difficulty === 'all' ? null : difficulty,
         null
       );
-      setCurrentVerb(response.data);
+      setCurrentVerb(verb);
     } catch (error) {
       console.error('Error loading verb:', error);
     } finally {
@@ -34,7 +34,7 @@ function PracticePage() {
   const handleAnswer = async (correct) => {
     // Record attempt
     try {
-      await progressAPI.recordAttempt(currentVerb.id, correct);
+      await recordAttempt(currentVerb.id, correct);
       setSessionStats(prev => ({
         correct: prev.correct + (correct ? 1 : 0),
         attempts: prev.attempts + 1,

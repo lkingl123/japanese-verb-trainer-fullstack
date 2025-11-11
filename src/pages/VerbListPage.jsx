@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { verbAPI } from '../services/api';
+import { getAllVerbs } from '../services/dataService';
 
 function VerbListPage() {
   const [verbs, setVerbs] = useState([]);
@@ -23,10 +23,10 @@ function VerbListPage() {
 
   const fetchVerbs = async () => {
     try {
-      const response = await verbAPI.getAll();
-      setVerbs(response.data);
+      const data = await getAllVerbs();
+      setVerbs(data);
     } catch (error) {
-      console.error('Error fetching verbs:', error);
+      console.error('Error loading verbs:', error);
     } finally {
       setLoading(false);
     }

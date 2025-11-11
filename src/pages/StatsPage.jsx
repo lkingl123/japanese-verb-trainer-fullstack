@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { progressAPI } from '../services/api';
+import { getStats, resetProgress } from '../services/dataService';
 
 function StatsPage() {
   const [stats, setStats] = useState(null);
@@ -11,8 +11,8 @@ function StatsPage() {
 
   const fetchStats = async () => {
     try {
-      const response = await progressAPI.getStats();
-      setStats(response.data);
+      const data = await getStats();
+      setStats(data);
     } catch (error) {
       console.error('Error fetching stats:', error);
     } finally {
@@ -23,7 +23,7 @@ function StatsPage() {
   const handleReset = async () => {
     if (window.confirm('Are you sure you want to reset all progress? This cannot be undone.')) {
       try {
-        await progressAPI.resetProgress();
+        await resetProgress();
         fetchStats();
         alert('Progress reset successfully!');
       } catch (error) {

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { progressAPI } from '../services/api';
+import { getStats } from '../services/dataService';
 
 function HomePage() {
   const [stats, setStats] = useState(null);
@@ -12,8 +12,8 @@ function HomePage() {
 
   const fetchStats = async () => {
     try {
-      const response = await progressAPI.getStats();
-      setStats(response.data);
+      const data = await getStats();
+      setStats(data);
     } catch (error) {
       console.error('Error fetching stats:', error);
     } finally {
